@@ -1,0 +1,156 @@
+.formulario-add-movie input {
+  border: 3px solid #00c9c8;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.formulario-add-movie .attach-button {
+  width: 100%;
+  height: 45px;
+  background: #fffefe;
+  border-radius: 6px;
+  border: 3px solid #00c9c8;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.formulario-add-movie .attach-button:active {
+  background-color: #008a89;
+  transform: scale(0.95);
+}
+.formulario-add-movie .attach-button:hover {
+  background: #00d8d6;
+}
+
+.formulario-add-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  flex: 1;
+  margin: auto;
+  width: 100%;
+}
+
+.formulario-add-movie .add-category {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 45px;
+  background: #fffefe;
+  border-radius: 6px;
+  border: 3px solid #00c9c8;
+  padding: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+
+.formulario-add-movie label {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.container-add-movie {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  /*   border: 5px solid #dcdcdc;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  flex-wrap: wrap;
+  padding: 15%;
+  padding-top: 20px;
+}
+.container-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0 20px;
+
+  gap: 28px;
+  flex: 1;
+  width: 100%;
+}
+
+.file-label {
+  position: relative;
+  display: inline-block;
+}
+
+.file-label input[type="file"] {
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+}
+.card-preview {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+  justify-content: space-around;
+  padding: 20px;
+  border: #dcdcdc 3px solid;
+  flex-wrap: wrap;
+}
+.card-movie-img {
+  max-width: 25vw;
+  height: auto;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  background: #fffefe;
+  border-radius: 6px;
+  border: 3px solid #00c9c8;
+  padding: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 768px) {
+  .titulo-add-movie {
+    width: 80vw;
+  }
+
+  .input-add-movies {
+    width: 80vw;
+  }
+
+  .button-add-movie {
+    width: 40vw;
+  }
+  .container-preview,
+  .formulario-add-movie {
+    padding: 0px 15px;
+    width: 100%;
+  }
+  .container-add-movie,
+  .container-preview {
+    padding-top: 10px;
+  }
+}

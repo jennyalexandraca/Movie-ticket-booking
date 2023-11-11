@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Avengers: Endgame",
+        "release_date": "20-05-2022",
+        "gender": "Acción",
+        "summary": "Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204089/Films/p_avengersendgame_19751_e14a0104_cuykcz.jpg",
+        "trailer":"https://www.youtube.com/watch?v=TcMBFSGVi1c&ab_channel=MarvelEntertainment"
+    },
+    { 
+        "id": 2,
+        "name": "The Shawshank Redemption",
+        "release_date": "20-05-2022",
+        "gender": "Drama",
+        "summary": "Andy Dufresne es un banquero condenado a cadena perpetua por el asesinato de su mujer y el amante de ésta. Poco a poco se gana el respeto de los demás reclusos y la amistad de Red, que dirige el mercado negro de la prisión.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204232/Films/519NBNHX5BL._AC_UF894_1000_QL80__i88v48.jpg",
+        "trailer":"https://www.youtube.com/watch?v=NmzuHjWmXOc&ab_channel=RottenTomatoesClassicTrailers"
+    },
+    { 
+        "id": 3,
+        "name": "The Dark Knight", 
+        "release_date": "20-05-2022",
+        "gender": "Acción", 
+        "summary": "Un fiscal del distrito de Gotham City aclamado como el «caballero blanco» de la ciudad, cuya batalla con el mundo criminal le deja trastornos mentales, convirtiéndolo en un asesino desfigurado con una doble personalidad sediento de venganza.​​",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204336/Films/p173378_p_v8_au_r0q32s.jpg",
+        "trailer":"https://www.youtube.com/watch?v=TQfATDZY5Y4&ab_channel=Legendary"
+    },
+    { 
+        "id": 4, 
+        "name": "Inception", 
+        "release_date": "20-05-2022",
+        "gender": "Ciencia ficción", 
+        "summary": "Dom Cobb (Leonardo DiCaprio) y su compañero Arthur (Joseph Gordon-Levitt) son dos ladrones especializados en la “extracción” de información a través del subconsciente. Es decir, se introducen en los sueños de las personas para obtener sus secretos.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204375/Films/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw_._V1__ucwqkv.jpg",
+        "trailer":"https://www.youtube.com/watch?v=RV9L7ui9Cn8&ab_channel=WarnerBrosInception"
+    },
+    { 
+        "id": 5, 
+        "name": "Monster INC", 
+        "release_date": "20-05-2022",
+        "gender": "Fantasía", 
+        "summary": "La película narra las aventuras de Sulley y Mike, dos simpáticos monstruos que trabajan para Monsters, Inc., la mayor industria de procesamiento de gritos humanos de Monstrópolis. Su trabajo consiste en esconderse en los armarios y esperar la noche para salir y asustar a los niños.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204522/Films/p_monstersinc_19751_55afa07a_otrryq.jpg",
+        "trailer":"https://www.youtube.com/watch?v=LjYBp3QJiKM&ab_channel=DisneyStudiosLA"
+    },
+    { 
+        "id": 6, 
+        "name": "Forrest Gump", 
+        "release_date": "20-05-2022",
+        "gender": "Comedia dramática", 
+        "summary": "Forrest Gump es un chico que, con sus limitaciones, contempla la vida con una mirada tierna y cándida. Su persistencia y bondad, valores que le ha inculcado su protectora madre, le llevan a vivir insospechadas peripecias que son un testimonio de la historia de Estados Unidos entre 1950 y 1980. Con la interpretación de este personaje singular, Tom Hanks consiguió su segundo Oscar al mejor actor, a la vez que hacía popular una de las frases más conmovedoras de la película: La vida es como una caja de bombones, nunca sabes lo que te va a tocar. Además de este galardón, la película consiguió otras cinco estatuillas: mejor director (Robert Zemeckis), película, efectos visuales, montaje y guion, convirtiéndose en la cinta más exitosa de 1994. Además de reventar las taquillas españolas con cuatro millones de espectadores, el filme pasará a la historia por sus innovadores efectos digitales que situaron al personaje al lado de personajes históricos reales como Richard Nixon o Elvis Presley.", 
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204555/Films/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI_._V1__lp3laj.jpg",
+        "trailer":"https://www.youtube.com/watch?v=bLvqoHBptjg&t=4s&ab_channel=ParamountMovies"
+    },
+    { 
+        "id": 7, 
+        "name": "The Godfather", 
+        "release_date": "20-05-2022",
+        "gender": "Fantasía", 
+        "summary": "Don Vito Corleone es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York en los años 40. El hombre tiene cuatro hijos: Connie, Sonny, Fredo y Michael, que no quiere saber nada de los negocios sucios de su padre. Cuando otro capo, Sollozzo, intenta asesinar a Corleone, empieza una cruenta lucha entre los distintos clanes.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204600/1675701488-the-godfather-peacock-1675701462_cqd8au.jpg",
+        "trailer":"https://www.youtube.com/watch?v=bLvqoHBptjg&ab_channel=ParamountMovies"
+    },
+    { 
+        "id": 8, 
+        "name": "The Matrix", 
+        "release_date": "20-05-2022",
+        "gender": "Ciencia ficción", 
+        "summary": "El programador informático Thomas Anderson, más conocido en el mundo de los hacker como Neo, está en el punto de mira del temible agente Smith. Otros dos piratas informáticos, Trinity y Morfeo, se ponen en contacto con Neo para ayudarlo a escapar. Matrix te posee. Sigue al conejo blanco.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204672/51EG732BV3L._AC_UF894_1000_QL80__jmiady.jpg",
+        "trailer":"https://www.youtube.com/watch?v=qjnvX44LoQw&ab_channel=WarnerBros.PicturesLatinoam%C3%A9rica"
+    },
+    { 
+        "id": 9, 
+        "name": "Joker", 
+        "release_date": "20-05-2022",
+        "gender": "Drama", 
+        "summary": "Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. El repudio social, la marginación y una serie de trágicos acontecimientos lo conducen por el sendero de la locura y, finalmente, cae en el mundo del crimen.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204709/960x0_c6icx6.jpg",
+        "trailer":"https://www.youtube.com/watch?v=ygUHhImN98w&ab_channel=WarnerBros.PicturesEspa%C3%B1a"
+    },
+    { 
+        "id": 10, 
+        "name": "Schindler's List", 
+        "release_date": "20-05-2022",
+        "gender": "Drama histórico", 
+        "summary": "El empresario alemán Oskar Schindler, miembro del Partido Nazi, pone en marcha un elaborado, costoso y arriesgado plan para salvar a más de mil judíos del Holocausto.",
+        "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204734/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY_._V1__ykfqp7.jpg",
+        "trailer":"https://www.youtube.com/watch?v=is2GqNMyPHs&ab_channel=UniversalMoviesDutch"
+    }
+    
+]

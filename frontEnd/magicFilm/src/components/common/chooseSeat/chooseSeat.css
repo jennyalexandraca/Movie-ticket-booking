@@ -1,0 +1,39 @@
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    width: 119px;
+    height: 121px;
+    background-color: #00c9c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat-input {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.text-center {
+    margin-top: 15px;
+}

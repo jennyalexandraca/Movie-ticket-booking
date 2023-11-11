@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="person">
+  <path
+    fill="#303C42"
+    d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0z"
+  ></path>
+  <path
+    fill="#E6E6E6"
+    d="M12 1c6.065 0 11 4.935 11 11 0 2.414-.791 4.642-2.115 6.458a3.975 3.975 0 0 0-.346-.203C18.535 17.226 15.427 16 12 16s-6.535 1.226-8.54 2.255c-.115.06-.23.128-.345.203A10.927 10.927 0 0 1 1 12C1 5.935 5.935 1 12 1z"
+  ></path>
+  <path
+    fill="#00C9C8"
+    d="M12 23c-3.289 0-6.237-1.458-8.254-3.753.057-.035.115-.073.172-.102C5.824 18.166 8.773 17 12 17s6.176 1.166 8.082 2.144c.057.03.115.067.173.103C18.237 21.542 15.289 23 12 23z"
+  ></path>
+  <circle cx="12" cy="9" r="6" fill="#303C42"></circle>
+  <linearGradient
+    id="a"
+    x1="13.164"
+    x2="18.649"
+    y1="15.398"
+    y2="20.884"
+    gradientUnits="userSpaceOnUse"
+  >
+    <stop offset="0" stop-opacity=".1"></stop>
+    <stop offset="1" stop-opacity="0"></stop>
+  </linearGradient>
+  <path
+    fill="url(#a)"
+    d="M16.534 22.012a11.097 11.097 0 0 0 3.72-2.765c-.057-.036-.115-.073-.172-.103C18.176 18.166 15.227 17 12 17c-.154 0-.305.015-.458.02l4.992 4.992z"
+  ></path>
+  <circle cx="12" cy="9" r="5" fill="#00C9C8"></circle>
+  <path
+    d="M14.68 4.794c.196.534.32 1.104.32 1.706 0 2.757-2.243 5-5 5a4.958 4.958 0 0 1-2.68-.794C8.02 12.622 9.845 14 12 14c2.757 0 5-2.243 5-5a4.99 4.99 0 0 0-2.32-4.206z"
+    opacity=".1"
+  ></path>
+  <linearGradient
+    id="b"
+    x1="1.125"
+    x2="22.875"
+    y1="6.929"
+    y2="17.071"
+    gradientUnits="userSpaceOnUse"
+  >
+    <stop offset="0" stop-color="#FFF" stop-opacity=".2"></stop>
+    <stop offset="1" stop-color="#FFF" stop-opacity="0"></stop>
+  </linearGradient>
+  <path
+    fill="url(#b)"
+    d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0z"
+  ></path>
+</svg>

@@ -1,0 +1,90 @@
+.admin-title {
+  margin: 30px;
+  color: black;
+}
+
+.admin-panel {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  flex: 1;
+  margin-bottom: 5vh;
+  flex-wrap: wrap;
+}
+
+.admin-container {
+  width: 85%;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.solid {
+  width: 160px;
+  height: 45px;
+  background-color: #00c9c8;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.solid:active {
+  background-color: #008a89;
+  transform: scale(0.95);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.outline {
+  width: 160px;
+  height: 45px;
+  background-color: transparent;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #00c9c8;
+}
+
+.outline:active {
+  background-color: #b7b7b7;
+  transform: scale(0.95);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.solid:hover {
+  background: #00d8d6;
+}
+@media screen and (max-width: 768px) {
+  .admin-container {
+    margin: 0;
+    width: 100%;
+  }
+  .admin-title {
+    font-size: 1.5rem;
+    color: black;
+  }
+}

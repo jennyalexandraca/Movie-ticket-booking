@@ -1,0 +1,122 @@
+.form-search-movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.input-home-search-movies {
+  border: 2px solid #00c9c8;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  width: 60%;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+.button-home-search-movies {
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  width: 25%;
+  height: 40px;
+  min-width: max-content;
+  background-color: #00c9c8;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-home-search-movies:active {
+  background-color: #008a89;
+  transform: scale(0.95);
+}
+
+.button-home-search-movies:hover {
+  /* Estilos al pasar el cursor por encima del botón */
+  background: #00fffb;
+}
+
+.button-search-detail {
+  background: #000000;
+  border: 1px solid #00c9c8;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.error-message {
+  color: red;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+/*Estilos de la película encontrada*/
+
+.container-movie-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  gap: 10px;
+}
+
+.contain-detail-movie-found-properties {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contain-detail-movie-found-properties-image {
+  min-width: 340px;
+  width: 35%;
+}
+
+.contain-detail-movie-found-properties-span {
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.contain-detail-movie-found-galery {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contain-detail-movie-found-galery img {
+  max-width: 350px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-search-movies {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .input-search-movies {
+    width: 70vw;
+  }
+
+  .button-search-movies {
+    width: 30vw;
+    height: 30px;
+  }
+}
+
+/*Estilos reponsive de la película encontrada*/
+
+@media (max-width: 768px) {
+  .container-movie-found-media {
+    flex-direction: column;
+    padding: 10px;
+  }
+}

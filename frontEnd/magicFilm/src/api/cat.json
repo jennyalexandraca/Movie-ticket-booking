@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "En Cartelera",
+      "description": "Se esta reproduciendo en este momento",
+      "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204089/Films/p_avengersendgame_19751_e14a0104_cuykcz.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Preventa",
+      "description": "Tiene fecha de estreno en menos de 15 dias",
+      "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204089/Films/p_avengersendgame_19751_e14a0104_cuykcz.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "A estrenar",
+      "description": "Tiene fecha de estreno",
+      "image": "https://res.cloudinary.com/dtzs6lm4b/image/upload/v1684204089/Films/p_avengersendgame_19751_e14a0104_cuykcz.jpg"
+    }
+  ]
+}

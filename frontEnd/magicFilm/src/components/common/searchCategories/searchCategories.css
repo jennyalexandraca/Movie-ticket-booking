@@ -1,0 +1,60 @@
+.container-filter-search-categories {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.title-category-filter {
+  display: inline-block;
+  align-content: center;
+}
+
+.container-buttons-search-categories {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-search-categories {
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  width: 8vw;
+  min-width: max-content;
+  background-color: white;
+  border: 2px solid #00c9c8;
+  border-radius: 4px;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.activeButtonCategory {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+
+  .container-buttons-search-categories {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-search-categories {
+    display: flex;
+    width: 90%;
+    min-width: max-content;
+    justify-content: center;
+  }
+  
+}

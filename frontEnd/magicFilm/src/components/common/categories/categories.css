@@ -1,0 +1,53 @@
+.container-categories {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.container-images {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.zoom {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  object-fit: contain;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+a {
+    height: auto;
+    max-width: 40%;
+}
+
+.nav-menu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  a {
+    max-width: 50%;
+  }
+
+  .container-images {
+    display: none;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: inline-block;
+    background-color: #000000;
+    text-align: center;
+  }
+}

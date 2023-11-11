@@ -1,0 +1,14 @@
+.titleCategoryMovies {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+    .titleCategoryMovies {
+        font-size: 20px;
+    }
+}

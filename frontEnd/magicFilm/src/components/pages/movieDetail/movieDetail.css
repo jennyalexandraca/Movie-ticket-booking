@@ -1,0 +1,153 @@
+* {
+  margin: 100%;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  gap: 10px;
+}
+
+.img-detail-movies {
+  width: auto;
+  max-height: 60vh;
+  border-color: rgb(25, 0, 255);
+}
+
+.titleRecommendedMovies {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.container-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Estilos nuevos */
+
+.container-detail-movie {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.container-detail-movie-properties {
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-detail-movie-properties-image {
+  margin: auto 0;
+}
+.container-detail-movie-properties-image img {
+  width: 100%;
+  max-width: 235px;
+}
+
+.container-detail-movie-properties-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto 0px;
+}
+.container-detail-movie-properties-text h2 {
+  font-weight: bold;
+}
+
+.container-detail-movie-properties-span {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.container-detail-movie-galery {
+  padding: 15px;
+  background-color: black;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.container-detail-movie-galery img {
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  max-height: 250px;
+}
+
+.detail-movie-ver-mas {
+  color: #00c9c8;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.detail-summary {
+  margin-bottom: 25px;
+  width: 90%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .container-detail-movies {
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .img-detail-movies {
+    width: 100%;
+    height: auto;
+    border-color: rgb(25, 0, 255);
+  }
+
+  .container-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .container-detail-movie-properties-image {
+    margin: auto 0;
+    width: 100%;
+  }
+
+  .p {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.041);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    gap: 10px;
+  }
+  .container-detail-movie {
+    justify-content: center;
+  }
+}

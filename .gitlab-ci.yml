@@ -1,0 +1,30 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build-backend:
+    stage: build
+    image: maven:3.8.3-openjdk-17
+    script:
+        - cd backEnd/cinema/cinema
+        - mvn clean package
+    artifacts:
+        paths:
+            - backEnd/cinema/cinema/target/cinema-0.0.8-SNAPSHOT.jar
+
+deploy-backend:
+    stage: deploy
+    image: ubuntu:latest
+    before_script:
+        - apt-get update && apt-get install -y openssh-client
+        - mkdir -p ~/.ssh
+        - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        - chmod 600 ~/.ssh/id_rsa
+        - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    script: 
+        - scp -o StrictHostKeyChecking=no backEnd/cinema/cinema/target/cinema-0.0.8-SNAPSHOT.jar ubuntu@$EC2_IP:/home/ubuntu/integrador/
+        - ssh -o StrictHostKeyChecking=no ubuntu@$EC2_IP "fuser -k -n tcp 8080 > log.log 2>&1 &"
+        - ssh -o StrictHostKeyChecking=no ubuntu@$EC2_IP "nohup java -jar /home/ubuntu/integrador/cinema-0.0.8-SNAPSHOT.jar > log.log 2>&1 &"
+        - sleep 5s
+        - echo "Deployment successful"

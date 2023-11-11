@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif !important;
+  height: 100%;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.swal2-container {
+  z-index: 100000 !important;
+}
+
+.swal2-styled.swal2-confirm {
+  color: #000 !important;
+  background-color: #00c9c8 !important;
+}

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  font-family: Montserrat;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-delete-movie {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  /* border: 5px solid #dcdcdc;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  flex-wrap: wrap;
+}
+
+.container-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 28px;
+  flex: 1;
+}
+
+.formulario-delete-movie {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  padding: 10px;
+  justify-content: center;
+}
+
+.titulo-delete-movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25vw;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .titulo-delete-movie {
+    width: 90%;
+  }
+
+  .input-delete-movie {
+    width: 30%;
+  }
+
+  .button-delete-movie {
+    width: 40vw;
+  }
+  .container-preview,
+  .formulario-delete-movie {
+    padding: 0px 15px;
+  }
+  .container-delete-movie,
+  .container-preview {
+    padding-top: 10px;
+  }
+}
+
+/* .input-delete-movies {
+  border: 2px solid #00c9c8;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  width: 25vw;
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container-delete-movie {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px solid #dcdcdc;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+}
+
+
+.formulario-add-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 28px;
+  padding: 30px;
+  flex: 1;
+}
+
+
+
+.button-delete-movie {
+  box-shadow: 4px 4px 8px -6px rgba(0, 0, 0, 0.75);
+  width: 8vw;
+  min-width: max-content;
+  background-color: #00c9c8;
+  border: 0;
+  border-radius: 4px;
+  height: 30px;
+}
+
+
+
+
+.container-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 28px;
+  padding: 30px;
+  flex: 1;
+}
+ */

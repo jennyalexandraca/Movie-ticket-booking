@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+article {
+  grid-area: content;
+  background-color: white;
+  padding: 20px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+  background-color: #bffcfa;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+
+}
+/* 
+.container-sidebar {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px;
+} */
+
+
+  
+
+.sidebar {
+  width: 320px;
+  background-color: #bffcfa;
+
+  &__logo {
+    display: grid;
+    place-items: center;
+    height: 120px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__menu {
+
+    padding-bottom: 50px;
+    &__item {
+      display: flex;
+      align-items: center;
+      place-content: flex-start;
+      padding: 1rem 3rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #555555;
+      transition: color 0.3s ease-in-out;
+
+      &.active {
+        color: #53a7ec;
+      }
+
+      &__icon {
+        margin-right: 1rem;
+
+        i {
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+  .sidebar-container{
+    flex-direction: column;
+    margin-bottom: 20px;
+
+  }
+}
